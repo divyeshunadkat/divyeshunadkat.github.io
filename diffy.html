@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/css/jemdoc.css" type="text/css">
+	<title>Divyesh Unadkat</title>
+</head>
+
+<body>
+	<table summary="Table for page layout." id="tlayout">
+		<tbody>
+			<tr valign="top">
+
+				<td id="layout-menu">
+					<div class="menu-category">Menu</div>
+					<div class="menu-item"><a href="/index.html" class="current">Home</a></div>
+					<div class="menu-item"><a href="https://dblp.uni-trier.de/pers/hd/u/Unadkat:Divyesh">DBLP</a></div>
+					<div class="menu-item"><a href="https://scholar.google.co.in/citations?user=8d48NqMAAAAJ&hl=en">Google Scholar</a></div>
+					<div class="menu-item"><a href="https://www.linkedin.com/in/divyeshunadkat/">LinkedIn</a></div>
+					<div class="menu-item"><a href="https://github.com/divyeshunadkat/">GitHub</a></div>
+
+					<div class="menu-category">Projects</div>
+					<div class="menu-item"><a href="/diffy.html">DIFFY</a></div>
+					<div class="menu-item"><a href="/vajra.html">VAJRA</a></div>
+					<div class="menu-item"><a href="/tiler.html">TILER</a></div>
+					<!--
+	     <div class="menu-category">Resources</div>
+	     <div class="menu-item"><a href="/presentations.html">Presentations</a></div>
+	     <div class="menu-item"><a href="/posters.html">Posters</a></div>
+					-->
+				</td>
+
+				<td id="layout-content">
+
+					<div id="toptitle"> <h1></h1> </div>
+					<h2>Project Description</h2>
+					<p>
+					We present a novel verification technique to prove interesting
+					properties of a class of array programs with a symbolic parameter
+					N denoting the size of the array. The technique relies on constructing
+					two slightly different versions of the program. It infers difference
+					relations between the corresponding variables at key control points
+					of the joint control-flow graph of the two program versions. The
+					inferred difference invaraints are agnostic of the post-condition to
+					be proved and are typically much simpler than the inductive invariants
+					needed for proving the post-condition directly. We formulate a new
+					technique to prove the desired post-condition by inducting on the
+					program parameter N, in which the difference invariants are crucially
+					used in the key inductive step. This contrasts with classical techniques
+					that rely on finding potentially complex loop invaraints for each loop
+					in the program. Our synergistic combination of inductive reasoning and
+					finding simple difference invariants helps prove properties of programs
+					that cannot be proved even by the winner of Arrays sub-category from
+					SV-COMP 2021. We have implemented a prototype tool called diffy to
+					demonstrate these ideas. We show the results on a set of benchmarks and
+					compare its performance vis-a-vis state-of-the-art tools for verifying
+					array programs.
+					</p>
+
+					<h2>Resources</h2>
+					<ul>
+						<li>
+							<p> CAV 2021 conference paper can be downloaded from 
+							<a href="https://link.springer.com/chapter/">Springer</a>.
+							</p>
+					 	</li>
+
+						<li>
+							<p> CAV 2021 Artifact can be found on 
+							<a href="https://figshare.com/articles/software/Diffy_Inductive_Reasoning_of_Array_Programs_using_Difference_Invariants/14509467">figshare</a>
+							and
+							<a href="https://github.com/divyeshunadkat/diffy-artifact">GitHub</a>.
+							</p>
+					 	</li>
+
+						<li>
+							<p> A set of slides on this work are available
+							<a href="/resources/diffy-slides.pdf">here</a>.
+							</p>
+						</li>
+
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
